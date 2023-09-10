@@ -1,2 +1,6 @@
-{
-    }
+spring:
+  datasource:
+    driver-class-name: com.intersystems.jdbc.IRISDriver
+    password: '!ris@dmin'
+    url: jdbc:IRIS://localhost:51773/USER/
+    username: _SYSTEM
