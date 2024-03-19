@@ -1,6 +1,12 @@
 spring:
+  exposed:
+    show-sql: true
   datasource:
     driver-class-name: com.intersystems.jdbc.IRISDriver
-    password: '!ris@dmin'
-    url: jdbc:IRIS://localhost:51773/USER/
+    password: 'SYS'
+    url: jdbc:IRIS://localhost:1972/USER/
     username: _SYSTEM
+logging:
+  level:
+    org:
+      springframework: info

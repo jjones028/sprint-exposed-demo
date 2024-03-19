@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/api/subjects")
-class SubjectRESTController(val repository: SubjectRepository) {
+class SubjectController(val repository: SubjectRepository) {
     @GetMapping
-    fun findAll() = repository.findAll()
+    fun findAll() = repository.queryAll()
 }

@@ -40,7 +40,7 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("com.intersystems:intersystems-jdbc:3.2.0")
-    implementation("io.spektacle.spring.data.jdbc:irisdialect:1.0.8")
+    implementation("io.spektacle.spring.data.jdbc:irisdialect:2.0.0")
     implementation("org.jetbrains.exposed:exposed-core:$exposedVersion")
     implementation("org.jetbrains.exposed:exposed-dao:$exposedVersion")
     implementation("org.jetbrains.exposed:exposed-kotlin-datetime:$exposedVersion")
